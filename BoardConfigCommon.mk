@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2021 The LineageOS Project
-#
+# Test
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -146,7 +146,7 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 201326592
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 237598617600
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 201326592
-ifneq ($(WITH_GMS),true)
+ifneq ($(USE_GAPPS),true)
 BOARD_PRODUCTIMAGE_EXTFS_INODE_COUNT := -1
 BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 958769746
 BOARD_SYSTEMIMAGE_EXTFS_INODE_COUNT := -1
