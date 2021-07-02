@@ -321,9 +321,4 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>org.lineageos.settings.device.KeyHandler</item>
     </string-array>
-        <!-- The default peak refresh rate for a given device. -->
-    <integer name="config_defaultPeakRefreshRate">120</integer>
-
-    <!-- Shows the required view for in-display fingerprint -->
-    <bool name="config_supportsInDisplayFingerprint">true</bool>
 </resources>
