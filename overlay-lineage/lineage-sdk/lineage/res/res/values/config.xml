@@ -67,6 +67,7 @@
 
     <!-- FOD fingerprint scanner -->
     <bool name="config_needCustomFODView">true</bool>
+<<<<<<< HEAD:overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml
     <!-- Defines the actions shown in advanced reboot submenu -->
     <string-array name="config_restartActionsList">
         <item>restart</item>
@@ -74,4 +75,6 @@
      </string-array>
         <item>restart_bootloader</item>
         <item>restart_fastboot</item>
+=======
+>>>>>>> 06a8529... sm8150-common: Switch back to bool for FOD:overlay-derp/frameworks/base/core/res/res/values/config.xml
 </resources>

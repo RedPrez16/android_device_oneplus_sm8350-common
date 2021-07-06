@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
+<<<<<<< HEAD
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -106,6 +107,8 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+=======
+>>>>>>> 06a8529... sm8150-common: Switch back to bool for FOD
 
 # ANT+
 PRODUCT_PACKAGES += \
