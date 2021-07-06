@@ -105,12 +105,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
-=======
-    frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
->>>>>>> 06a8529... sm8150-common: Switch back to bool for FOD
-=======
-    frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
->>>>>>> 06a8529... sm8150-common: Switch back to bool for FOD
+
 
 # ANT+
 PRODUCT_PACKAGES += \
