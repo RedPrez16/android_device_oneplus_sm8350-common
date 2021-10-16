@@ -30,8 +30,6 @@
         <item>3</item>
         <item>4</item>
     </string-array>
-<<<<<<< HEAD:DeviceSettings/res/values/arrays.xml
-=======
 
     <string-array name="notification_slider_usage_entries" translatable="false">
         <item>@string/notification_slider_for_notification</item>
@@ -113,5 +111,4 @@
         <item>52</item>
     </string-array>
 
->>>>>>> 747b1ec... common: say hello to Awesome Alert Slider:configpanel/res/values/arrays.xml
 </resources>
